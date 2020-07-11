@@ -1,3 +1,16 @@
 @import "_null";
 @import "_variables";
 
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: $text;
+}
+
+.container{
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+@import "blocks/_header.scss";
